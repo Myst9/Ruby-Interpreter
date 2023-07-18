@@ -2,7 +2,6 @@ from lexer import *
 from parser_ruby import *
 from interpreter import *
 
-
 def main():
     file = open("./testCases/input_test6.txt", "r")
     text = file.read()
